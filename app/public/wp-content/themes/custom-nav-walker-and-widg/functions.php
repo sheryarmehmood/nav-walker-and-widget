@@ -191,6 +191,6 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
 
 // Register Menu Locations
-// register_nav_menus( array(
-// 'primary' => esc_html__( 'Primary Menu', 'custom-nav-walker-and-widg' ),
-// ) );
+register_nav_menus( array(
+'primary' => esc_html__( 'Primary Menu', 'custom-nav-walker-and-widg' ),
+) );
