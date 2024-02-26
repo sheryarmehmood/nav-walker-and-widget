@@ -111,15 +111,14 @@
 		<?php
 			wp_nav_menu( array(
 				'theme_location'    => 'primary',
-				'depth'             => 2, //2 for dropdown, 1 for no dropdown
+				'depth'             => 3, //2 for dropdown, 1 for no dropdown
 				'container'         => 'div',
 				'container_class'   => 'collapse navbar-collapse',
 				'container_id'      => 'bs-example-navbar-collapse-1',
 				'menu_class'        => 'nav navbar-nav',
 				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 				'submenu_class'     => 'dropdown-menu bg-dark',
-				'walker'            => new WP_Bootstrap_Navwalker(),
-				// 'dropdown-menu'     => 'bg-dark', // Apply bg-dark to the dropdown menus
+				'walker'            => new WP_Bootstrap_Navwalker(), 
 			) );
 		?>
 
