@@ -100,7 +100,7 @@
 </nav> -->
 
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
 			
 	<div class="container">
 				
@@ -117,7 +117,9 @@
 				'container_id'      => 'bs-example-navbar-collapse-1',
 				'menu_class'        => 'nav navbar-nav',
 				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+				'submenu_class'     => 'dropdown-menu bg-dark',
 				'walker'            => new WP_Bootstrap_Navwalker(),
+				// 'dropdown-menu'     => 'bg-dark', // Apply bg-dark to the dropdown menus
 			) );
 		?>
 

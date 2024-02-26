@@ -20,3 +20,9 @@ Stack trace:
 #6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
 #7 {main}
   thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[26-Feb-2024 15:39:41 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
+[26-Feb-2024 15:39:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[26-Feb-2024 15:39:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[26-Feb-2024 15:40:30 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
+[26-Feb-2024 15:40:31 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
+[26-Feb-2024 15:40:55 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126

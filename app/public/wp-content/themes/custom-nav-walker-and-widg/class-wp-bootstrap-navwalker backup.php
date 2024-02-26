@@ -64,7 +64,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			}
 			$indent = str_repeat( $t, $depth );
 			// Default class to add to the file.
-			$classes = array( 'dropdown-menu', 'bg-dark' ); // Add 'bg-dark' class here
+			$classes = array( 'dropdown-menu' );
 			/**
 			 * Filters the CSS class(es) applied to a menu list element.
 			 *
@@ -76,7 +76,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			 */
 			$class_names = join( ' ', apply_filters( 'nav_menu_submenu_css_class', $classes, $args, $depth ) );
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
-		
+
 			/*
 			 * The `.dropdown-menu` container needs to have a labelledby
 			 * attribute which points to it's trigger link.
@@ -94,7 +94,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			}
 			$output .= "{$n}{$indent}<ul$class_names $labelledby>{$n}";
 		}
-		
+
 		/**
 		 * Starts the element output.
 		 *
