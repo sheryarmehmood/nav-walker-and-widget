@@ -47,7 +47,7 @@
 
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
 			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
+				
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -55,7 +55,7 @@
 					<?php
 					wp_nav_menu( array(
 						'theme_location'    => 'primary',
-						'depth'             => 2,
+						'depth'             => 2, //2 for dropdown, 1 for no dropdown
 						'container'         => 'div',
 						'container_class'   => 'collapse navbar-collapse',
 						'container_id'      => 'bs-example-navbar-collapse-1',
