@@ -64,7 +64,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			}
 			$indent = str_repeat( $t, $depth );
 			// Default class to add to the file.
-			$classes = array( 'dropdown-menu', 'bg-dark' ); // Add 'bg-dark' class here
+			$classes = array( 'dropdown-menu', 'bg-primary' ); // Add 'bg-dark' class here
 			/**
 			 * Filters the CSS class(es) applied to a menu list element.
 			 *
