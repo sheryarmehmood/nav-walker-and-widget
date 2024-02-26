@@ -9,3 +9,14 @@ Stack trace:
 #6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
 #7 {main}
   thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[26-Feb-2024 13:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
