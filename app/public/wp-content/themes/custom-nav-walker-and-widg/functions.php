@@ -187,8 +187,8 @@ add_action('wp_enqueue_scripts', 'enqueue_bootstrap_cdn');
 
 
 // Include the custom Nav Walker class
-require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-
+// require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+require_once get_template_directory() . '/bootstrap-navwalker.php';
 
 // Register Menu Locations
 register_nav_menus( array(

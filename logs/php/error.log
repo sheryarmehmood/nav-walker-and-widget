@@ -26,3 +26,125 @@ Stack trace:
 [26-Feb-2024 15:40:30 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
 [26-Feb-2024 15:40:31 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
 [26-Feb-2024 15:40:55 UTC] PHP Fatal error:  Cannot redeclare WP_Bootstrap_Navwalker::start_el() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\class-wp-bootstrap-navwalker.php on line 126
+[29-Feb-2024 19:31:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:31:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:33:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:33:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:34:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:34:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 19:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php:64
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#7 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php on line 64
+[29-Feb-2024 20:35:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php:23
+Stack trace:
+#0 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-walker.php(147): Bootstrap_Navwalker->start_el('', Object(WP_Post), 0, Object(stdClass))
+#1 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 2, 0, Array, '')
+#2 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 2, Object(stdClass))
+#3 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 2, Object(stdClass))
+#4 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\header.php(86): wp_nav_menu(Object(stdClass))
+#5 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(790): require_once('C:\\Users\\Hp\\Loc...')
+#6 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Hp\\Loc...', true, Array)
+#7 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\index.php(15): get_header()
+#9 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hp\\Loc...')
+#10 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hp\\Loc...')
+#11 C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\index.php(17): require('C:\\Users\\Hp\\Loc...')
+#12 {main}
+  thrown in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 23
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:21 UTC] PHP Fatal error:  Cannot use [] for reading in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:21 UTC] PHP Fatal error:  Cannot use [] for reading in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:24 UTC] PHP Fatal error:  Cannot use [] for reading in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[29-Feb-2024 20:40:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:34 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20
+[29-Feb-2024 20:40:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hp\Local Sites\custom-nav-walker-and-widget\app\public\wp-content\themes\custom-nav-walker-and-widg\bootstrap-navwalker.php on line 20

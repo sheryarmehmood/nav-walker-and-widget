@@ -45,27 +45,7 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
-			<div class="container">
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand" href="#">Navbar</a>
-					<?php
-					wp_nav_menu( array(
-						'theme_location'    => 'primary',
-						'depth'             => 2, //2 for dropdown, 1 for no dropdown
-						'container'         => 'div',
-						'container_class'   => 'collapse navbar-collapse',
-						'container_id'      => 'bs-example-navbar-collapse-1',
-						'menu_class'        => 'nav navbar-nav',
-						'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-						'walker'            => new WP_Bootstrap_Navwalker(),
-					) );
-					?>
-				</div>
-		</nav> -->
+		
 
 <!-- 
 		<nav id="site-navigation" class="main-navigation">
@@ -96,14 +76,14 @@
 		<?php
 			wp_nav_menu( array(
 				'theme_location'    => 'primary',
-				'depth'             => 3, //2 for dropdown, 1 for no dropdown
+				'depth'             => 2, //2 for dropdown, 1 for no dropdown
 				'container'         => 'div',
 				'container_class'   => 'collapse navbar-collapse',
 				'container_id'      => 'bs-example-navbar-collapse-1',
 				'menu_class'        => 'nav navbar-nav',
-				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+				'fallback_cb'       => 'Bootstrap_Navwalker::fallback',
 				'submenu_class'     => 'dropdown-menu bg-dark',
-				'walker'            => new WP_Bootstrap_Navwalker(), 
+				'walker'            => new Bootstrap_Navwalker(),
 			) );
 		?>
 
