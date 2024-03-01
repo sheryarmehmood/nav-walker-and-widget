@@ -22,7 +22,9 @@ class Bootstrap_Navwalker extends Walker_Nav_Menu {
         $class_names = ' class="' . esc_attr( $class_names ) . '"';
         // echo $class_names;
         
+        // echo $item->ID;
         $id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+        // echo $id;
         $id = strlen( $id ) ? ' id="' . esc_attr( $id ) . '"' : '';
         // echo $id;
         $output .= $indent . '<li ' . $id . $value . $class_names . $li_attributes . '>';
